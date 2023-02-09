@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pro3"
+    android:background="#72006064"
+    >
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="Verifying your number"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/view"
+        android:layout_centerHorizontal="true"
+        android:text="Waiting to automatically detect an SMS sent to"
+        android:textColor="@color/black"/>
+    <TextView
+    android:id="@+id/view2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_below="@id/view1"
+    android:layout_centerHorizontal="true"
+    android:text="+8688007523. wrong number?"
+    android:textColor="@color/black"
+    />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="233dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+
+        android:backgroundTint="@color/black"
+        android:ems="1"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="number"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:ems="1"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="number"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:ems="1"
+
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="number"
+        android:text="0"
+
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:ems="1"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="number"
+
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="53dp"
+
+        android:layout_marginRight="2dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:ems="1"
+
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="number"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:ems="1"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="number"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/edit2"
+        android:layout_centerHorizontal="true"
+        android:text="Enter 6-digit code"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/view4"
+        android:layout_centerHorizontal="true"
+        android:text="Did not recive code?"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+</RelativeLayout>
